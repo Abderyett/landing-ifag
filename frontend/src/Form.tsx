@@ -148,7 +148,9 @@ export default function JourneePortesOuvertes() {
 							<div className='flex items-center gap-2 sm:gap-3 bg-white/15 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-auto justify-center border border-white/20'>
 								<span className='font-semibold drop-shadow-sm'>09h00 - 17h00</span>
 							</div>
-							<div className='flex items-center gap-2 sm:gap-3 bg-white/15 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-auto justify-center border border-white/20'>
+							<div 
+								className='flex items-center gap-2 sm:gap-3 bg-white/15 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-auto justify-center border border-white/20 cursor-pointer hover:bg-white/25 transition-all duration-300'
+								onClick={() => window.open('https://maps.app.goo.gl/XPgAb1WatXidSJ1S8', '_blank')}>
 								<MapPin className='h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6' />
 								<span className='font-semibold text-center drop-shadow-sm'>Campus IFAG, Alger</span>
 							</div>
@@ -169,8 +171,8 @@ export default function JourneePortesOuvertes() {
 				/>
 
 				<div className='relative max-w-4xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8'>
-					<Card className='shadow-2xl border-0 bg-white/80 backdrop-blur-sm'>
-						<CardHeader className='text-center pb-6 sm:pb-8 bg-gradient-to-r from-red-500 to-pink-500 text-white rounded-t-lg'>
+					<Card className='shadow-2xl border-0 bg-white/80 backdrop-blur-sm overflow-hidden'>
+						<CardHeader className='text-center pb-6 sm:pb-8 bg-gradient-to-r from-red-500 to-pink-500 text-white pt-6 sm:pt-8 -mx-6 -mt-6 mb-0 px-6 rounded-t-lg'>
 							<div className='flex justify-center mb-3 sm:mb-4'>
 								<div className='w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-white/20 rounded-full flex items-center justify-center'>
 									<Calendar className='h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white' />
