@@ -575,7 +575,7 @@ export default function JourneePortesOuvertes() {
 								</div>
 								<div className='flex items-center gap-2 sm:gap-3'>
 									<MapPin className='h-4 w-4 sm:h-5 sm:w-5 text-red-400' />
-									<span className='text-sm sm:text-base'>Campus IFAG, Alger</span>
+									<span className='text-sm sm:text-base'>1 Rue Belle Vue, Lot Djnane Boursas, Hydra</span>
 								</div>
 							</div>
 						</div>
