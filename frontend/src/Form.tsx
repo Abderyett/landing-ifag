@@ -154,49 +154,6 @@ export default function JourneePortesOuvertes() {
 							</div>
 						</div>
 
-						<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto px-2'>
-							<Card className='bg-white/15 backdrop-blur-md border-white/25 hover:bg-white/25 transition-all duration-300 transform hover:scale-105'>
-								<CardContent className='p-4 sm:p-6 md:p-8 text-center'>
-									<div className='bg-white/25 rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 flex items-center justify-center mx-auto mb-3 sm:mb-4'>
-										<Users className='h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white' />
-									</div>
-									<h3 className='text-base sm:text-lg md:text-xl font-semibold mb-2 sm:mb-3 drop-shadow-md'>
-										Rencontrez l'équipe
-									</h3>
-									<p className='text-sm sm:text-base text-white/95 drop-shadow-sm'>
-										Échangez avec nos professeurs expérimentés et nos étudiants passionnés
-									</p>
-								</CardContent>
-							</Card>
-
-							<Card className='bg-white/15 backdrop-blur-md border-white/25 hover:bg-white/25 transition-all duration-300 transform hover:scale-105'>
-								<CardContent className='p-4 sm:p-6 md:p-8 text-center'>
-									<div className='bg-white/25 rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 flex items-center justify-center mx-auto mb-3 sm:mb-4'>
-										<BookOpen className='h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white' />
-									</div>
-									<h3 className='text-base sm:text-lg md:text-xl font-semibold mb-2 sm:mb-3 drop-shadow-md'>
-										Programmes innovants
-									</h3>
-									<p className='text-sm sm:text-base text-white/95 drop-shadow-sm'>
-										Découvrez nos formations en Sciences Commerciales, Marketing, Informatique et Management
-									</p>
-								</CardContent>
-							</Card>
-
-							<Card className='bg-white/15 backdrop-blur-md border-white/25 hover:bg-white/25 transition-all duration-300 transform hover:scale-105 sm:col-span-2 lg:col-span-1'>
-								<CardContent className='p-4 sm:p-6 md:p-8 text-center'>
-									<div className='bg-white/25 rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 flex items-center justify-center mx-auto mb-3 sm:mb-4'>
-										<MapPin className='h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white' />
-									</div>
-									<h3 className='text-base sm:text-lg md:text-xl font-semibold mb-2 sm:mb-3 drop-shadow-md'>
-										Campus moderne
-									</h3>
-									<p className='text-sm sm:text-base text-white/95 drop-shadow-sm'>
-										Visitez nos installations de pointe et découvrez notre environnement d'apprentissage
-									</p>
-								</CardContent>
-							</Card>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -383,6 +340,55 @@ export default function JourneePortesOuvertes() {
 							</div>
 						</CardContent>
 					</Card>
+				</div>
+			</div>
+
+			{/* Features Section - Moved after form */}
+			<div className='py-12 sm:py-16 md:py-20 bg-gradient-to-br from-red-50 via-pink-50 to-red-100'>
+				<div className='max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8'>
+					<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto'>
+						<Card className='bg-white/90 backdrop-blur-md border-0 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105'>
+							<CardContent className='p-6 sm:p-8 text-center'>
+								<div className='bg-red-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4 sm:mb-6'>
+									<Users className='h-8 w-8 sm:h-10 sm:w-10 text-red-600' />
+								</div>
+								<h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900'>
+									Rencontrez l'équipe
+								</h3>
+								<p className='text-sm sm:text-base text-gray-600 leading-relaxed'>
+									Échangez avec nos professeurs expérimentés et nos étudiants passionnés
+								</p>
+							</CardContent>
+						</Card>
+
+						<Card className='bg-white/90 backdrop-blur-md border-0 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105'>
+							<CardContent className='p-6 sm:p-8 text-center'>
+								<div className='bg-blue-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4 sm:mb-6'>
+									<BookOpen className='h-8 w-8 sm:h-10 sm:w-10 text-blue-600' />
+								</div>
+								<h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900'>
+									Programmes innovants
+								</h3>
+								<p className='text-sm sm:text-base text-gray-600 leading-relaxed'>
+									Découvrez nos formations en Sciences Commerciales, Marketing, Informatique et Management
+								</p>
+							</CardContent>
+						</Card>
+
+						<Card className='bg-white/90 backdrop-blur-md border-0 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 sm:col-span-2 lg:col-span-1'>
+							<CardContent className='p-6 sm:p-8 text-center'>
+								<div className='bg-green-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4 sm:mb-6'>
+									<MapPin className='h-8 w-8 sm:h-10 sm:w-10 text-green-600' />
+								</div>
+								<h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900'>
+									Campus moderne
+								</h3>
+								<p className='text-sm sm:text-base text-gray-600 leading-relaxed'>
+									Visitez nos installations de pointe et découvrez notre environnement d'apprentissage
+								</p>
+							</CardContent>
+						</Card>
+					</div>
 				</div>
 			</div>
 
