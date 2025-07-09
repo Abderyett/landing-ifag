@@ -115,9 +115,7 @@ export default function JourneePortesOuvertes() {
 								</div>
 							</div>
 						</div>
-						<Badge className='mb-4 sm:mb-6 bg-white/25 backdrop-blur-sm text-white border-white/40 text-base sm:text-lg px-4 sm:px-6 py-1 sm:py-2 drop-shadow-md'>
-							📅 Événement Spécial
-						</Badge>
+
 						<h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight px-2 drop-shadow-lg'>
 							Journée Portes Ouvertes
 						</h1>
@@ -148,14 +146,13 @@ export default function JourneePortesOuvertes() {
 							<div className='flex items-center gap-2 sm:gap-3 bg-white/15 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-auto justify-center border border-white/20'>
 								<span className='font-semibold drop-shadow-sm'>09h00 - 17h00</span>
 							</div>
-							<div 
+							<div
 								className='flex items-center gap-2 sm:gap-3 bg-white/15 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-auto justify-center border border-white/20 cursor-pointer hover:bg-white/25 transition-all duration-300'
 								onClick={() => window.open('https://maps.app.goo.gl/XPgAb1WatXidSJ1S8', '_blank')}>
 								<MapPin className='h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6' />
 								<span className='font-semibold text-center drop-shadow-sm'>Campus IFAG, Alger</span>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -382,9 +379,7 @@ export default function JourneePortesOuvertes() {
 								<div className='bg-green-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4 sm:mb-6'>
 									<MapPin className='h-8 w-8 sm:h-10 sm:w-10 text-green-600' />
 								</div>
-								<h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900'>
-									Campus moderne
-								</h3>
+								<h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900'>Campus moderne</h3>
 								<p className='text-sm sm:text-base text-gray-600 leading-relaxed'>
 									Visitez nos installations de pointe et découvrez notre environnement d'apprentissage
 								</p>
