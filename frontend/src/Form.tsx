@@ -343,8 +343,15 @@ export default function JourneePortesOuvertes() {
 			</div>
 
 			{/* Features Section - Moved after form */}
-			<div className='py-12 sm:py-16 md:py-20 bg-gradient-to-br from-red-50 via-pink-50 to-red-100'>
-				<div className='max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8'>
+			<div className='relative py-12 sm:py-16 md:py-20 bg-gradient-to-br from-white via-red-50/30 to-pink-50/30'>
+				<div
+					style={{
+						backgroundImage:
+							"url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ef4444' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+					}}
+					className='absolute inset-0'
+				/>
+				<div className='relative max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8'>
 					<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto'>
 						<Card className='bg-white/90 backdrop-blur-md border-0 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105'>
 							<CardContent className='p-6 sm:p-8 text-center'>

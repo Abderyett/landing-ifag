@@ -54,7 +54,8 @@ app.post('/api/send-email', async (req, res) => {
 ::nom : '${nomPrenom || ''}'
 ::Email : '${email || ''}'
 ::Mobile : '${mobile || ''}'
-::Niveau : '${anneeDuBac || ''}'
+::année : '${anneeDuBac || ''}'
+::spécialité : '${specialite || ''}'
 ::Formation : '${programme || ''}'
 ::Source : '${source || ''}'
 	`;
