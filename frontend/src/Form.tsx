@@ -379,7 +379,7 @@ export default function JourneePortesOuvertes() {
 								<div className='bg-green-100 rounded-full w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4 sm:mb-6'>
 									<MapPin className='h-8 w-8 sm:h-10 sm:w-10 text-green-600' />
 								</div>
-								<h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900'>Campus moderne</h3>
+								<h3 className='text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-900'>Infrastructure d'excellence</h3>
 								<p className='text-sm sm:text-base text-gray-600 leading-relaxed'>
 									Visitez nos installations de pointe et découvrez notre environnement d'apprentissage
 								</p>
@@ -397,7 +397,7 @@ export default function JourneePortesOuvertes() {
 							Notre Campus IFAG
 						</h2>
 						<p className='text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-2'>
-							Découvrez nos installations modernes et notre environnement d'apprentissage exceptionnel
+							Découvrez nos installations de pointe et notre environnement d'apprentissage exceptionnel
 						</p>
 					</div>
 
@@ -463,7 +463,7 @@ export default function JourneePortesOuvertes() {
 									onClick={() => window.open('https://g.co/kgs/GWmUECt', '_blank')}>
 									<h4 className='text-lg sm:text-xl font-bold text-gray-900 mb-2'>Campus Principal IFAG</h4>
 									<p className='text-sm sm:text-base text-gray-600'>
-										Établissement moderne avec toutes les spécialités d'enseignement supérieur
+										Établissement d'excellence avec toutes les spécialités d'enseignement supérieur
 									</p>
 									<div className='mt-2 sm:mt-3 flex items-center gap-2 text-xs sm:text-sm text-red-600'>
 										<MapPin className='h-3 w-3 sm:h-4 sm:w-4' />
