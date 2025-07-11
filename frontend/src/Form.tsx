@@ -424,7 +424,7 @@ export default function JourneePortesOuvertes() {
 								<div
 									className='p-4 sm:p-6 bg-white cursor-pointer'
 									onClick={() => window.open('https://g.co/kgs/GWmUECt', '_blank')}>
-									<h4 className='text-lg sm:text-xl font-bold text-gray-900 mb-2'>IFAG Education Group</h4>
+									<h4 className='text-lg sm:text-xl font-bold text-gray-900 mb-2'>IFAG Higher Institute</h4>
 									<p className='text-sm sm:text-base text-gray-600'>
 										Higher Institute - Établissement reconnu d'excellence
 									</p>
