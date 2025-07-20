@@ -71,7 +71,7 @@ export default function JourneePortesOuvertes() {
 					nomPrenom: '',
 					email: '',
 					mobile: '',
-					source: 'JPO 12',
+					source: 'jpo26',
 					anneeDuBac: '',
 					specialite: '',
 					programme: '',
