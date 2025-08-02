@@ -13,7 +13,7 @@ export default function JourneePortesOuvertes() {
 		nomPrenom: '',
 		email: '',
 		mobile: '',
-		source: 'jpo26',
+		source: 'jpo5',
 		anneeDuBac: '',
 		specialite: '',
 		programme: '',
@@ -71,7 +71,7 @@ export default function JourneePortesOuvertes() {
 					nomPrenom: '',
 					email: '',
 					mobile: '',
-					source: 'jpo26',
+					source: 'jpo5',
 					anneeDuBac: '',
 					specialite: '',
 					programme: '',
@@ -141,7 +141,7 @@ export default function JourneePortesOuvertes() {
 						<div className='flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-8 mb-8 sm:mb-12 text-sm sm:text-base md:text-lg px-2'>
 							<div className='flex items-center gap-2 sm:gap-3 bg-white/15 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-auto justify-center border border-white/20'>
 								<Calendar className='h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6' />
-								<span className='font-semibold text-center drop-shadow-sm'> Samedi et Dimanche 26 & 27 juillet 2025</span>
+								<span className='font-semibold text-center drop-shadow-sm'> Mercredi et Jeudi 05 & 06 Août 2025</span>
 							</div>
 							<div className='flex items-center gap-2 sm:gap-3 bg-white/15 backdrop-blur-md rounded-full px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-auto justify-center border border-white/20'>
 								<span className='font-semibold drop-shadow-sm'>09h00 - 17h00</span>
@@ -588,7 +588,7 @@ export default function JourneePortesOuvertes() {
 										<Calendar className='h-3 w-3 sm:h-4 sm:w-4 text-red-400' />
 										<span className='font-semibold text-sm sm:text-base'>Date</span>
 									</div>
-									<p className='text-sm sm:text-base'>Samedi & Dimanche 26 & 27 Juillet 2025</p>
+									<p className='text-sm sm:text-base'>Mercredi & Jeudi 06 & 07 Aout 2025</p>
 								</div>
 								<div className='bg-red-500/20 rounded-lg p-3 sm:p-4 border border-red-500/30'>
 									<div className='flex items-center gap-2 mb-2'>
